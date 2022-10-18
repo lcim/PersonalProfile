@@ -172,3 +172,6 @@ hr {
   background-color: #AADFDF;
   font-weight: bold;
 }
+.footer-link:hover {
+  color: #FFFFFF;
+}
