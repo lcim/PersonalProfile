@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <style media="screen">
+    /* #### Relative Positioning ##### */
+
+.top-container {
+  height: 200px;
+  width: 200px;
+  background-color: red;
+  position: relative;
+  left: 400px;
+}
+.middle-container /* or div:nth-child(2) */ {
+  height: 200px;
+  width: 200px;
+  background-color: blue;
+  position: relative;
+  bottom: 200px;
+}
+.bottom-container /* or div:last-child */ {
+  height: 200px;
+  width: 200px;
+  background-color: yellow;
+  position: relative;
+  bottom: 400px;
+  left: 200px;
+}
+
+/* #### Absolute Positioning ##### */
+
+body {
+  margin: 0;
+}
+.box {
+  background-color: pink;
+  height: 510px;
+  width: 510px;
+  position: relative;
+}
+.top-container2 {
+  height: 100px;
+  width: 100px;
+  background-color: red;
+  position: absolute;
+  top: 0;
+  left: 250px;
+}
+.middle-container2 {
+  height: 100px;
+  width: 150px;
+  background-color: blue;
+  position: absolute;
+  top: 600px;
+  left: 100px;
+}
+.bottom-container2 {
+  height: 100px;
+  width: 100px;
+  background-color: yellow;
+  position: absolute;
+  top: 600px;
+  left: 0;
+}
+
+  </style>
+</head>
+
+<body>
+  <div class="top-container">
+
+  </div>
+  <div class="middle-container">
+
+  </div>
+  <div class="bottom-container">
+
+  </div>
+  <div class="box">
+
+  <div class="top-container2">
+
+  </div>
+  </div>
+  <div class="middle-container2">
+
+  </div>
+  <div class="bottom-container2">
+
+  </div>
+</body>
+
+</html>
